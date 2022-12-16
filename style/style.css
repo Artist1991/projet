@@ -1,0 +1,58 @@
+h1{
+    color: blue;
+    text-align: center;
+    background-color: aqua;
+}
+h2{
+    color: brown;
+    text-align: center;
+    text-decoration: dashed;
+}
+.title{
+    color: blueviolet;
+    text-align: justify;
+}
+#paragraph{
+    color: blueviolet;
+    font-size: xx-large;
+}
+::-webkit-scrollbar{
+    width: 30px;
+    background-color: blue;
+}
+::-webkit-scrollbar-thumb{
+    background-color: bisque;
+    box-shadow: 0 -100vh 0 100vh bisque;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: aqua;
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: beige;
+}
+.para1{
+    padding: 70px;
+    border: 70px solid red;
+}
+.para2{
+    margin: 70px;
+    border: 2px solid blue;
+}
+fonts.forEach(font => {
+    const { id, name, likes } = font;
+    if (
+        likes >= 30
+        || (likes === 50 && likes != 0)
+        || favorites[id]
+        ) {
+            coolFonts++;
+            console.log( "${name} is cool!");
+        
+        }
+})

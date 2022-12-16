@@ -3,39 +3,70 @@
 <html>
     <head>
       <title>Mon Projet</title>
-      <meta charset=""utf-8 />
+      <meta charset="" />
+		<link rel="stylesheet" href="style/style.css" />
+		<meta name="viewport" content="width=, initial-scale=" />
     </head>
     <body>
+        <font>
+        <nav>
+            <header>
+                <ul>
+                    <li><a href="home.html">ACCUEIL</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </header>
+        </nav>
     <!-- acueil -->
     <h1>acueil</h1>
+    <p class="para1">
+        Particulièrement, attirée par le travail au contact du public, je voudrais avoir l’opportunité
+d’exercer le métier et de parfaire mes aptitudes et de maîtriser ainsi toutes les compétences et les
+qualités relationnelles nécessaire pour accueillir et renseigner vos clients tout en véhiculant
+l’image et les valeurs chères à votre entreprise.
+    </p>
+    <p id="paragraph">paragrah 1 fhcdnjkmkdcdiodi</p>
+    <p class="para2">Particulièrement, attirée par le travail au contact du public, je voudrais avoir l’opportunité
+        d’exercer le métier et de parfaire mes aptitudes et de maîtriser ainsi toutes les compétences et les
+        qualités relationnelles nécessaire pour accueillir et renseigner vos clients tout en véhiculant
+        l’image et les valeurs chères à votre entreprise.</p>
+
     
     <section>
         <!-- a propos -->
-    <h2>a propos</h2>
-    <ul>
-        <li>
-            <p>premier item</p>
-        </li>
-        <li>
-            <p>deuxieme item</p>
-        </li>
-        <li>
-            <p>troisieme item</p>
-        </li>
-    </ul>
+    <h2 class="title">a propos</h2>
+    <div>
+        <ul>
+            <li>
+                <p>premier item</p>
+            </li>
+            <li>
+                <p>deuxieme item</p>
+            </li>
+            <li>
+                <p>troisieme item</p>
+            </li>
+        </ul>
+    </div>
     </section>
 
    <section>
      <!-- travail -->
      <h2>travail</h2>
      <form>
-        <label for="name">nom</label>
+        <div>
+            <label for="name">nom</label>
          <input type="text" id="name" />
+        </div>
          <br />
-         <label for="competence">competence</label>
+         <div>
+            <label for="competence">competence</label>
          <input type="text" id="competence" />
+         </div>
          <br />
-         <button type="submit">enregistrer</button>
+         <div>
+            <button type="submit">enregistrer</button>
+         </div>
     </form>
    </section>
     
@@ -43,16 +74,24 @@
     <!-- cv -->
     <h2>cv</h2>
     <form>
-        <label for="name">nom</label>
+        <div>
+            <label for="name">nom</label>
          <input type="text" id="name" />
+        </div>
          <br />
-         <label for="email">email</label>
-         <input type="email" id="email" />
+        <div>
+            <label for="email">email</label>
+            <input type="email" id="email" />
+        </div>
          <br />
-         <label for="password">password</label>
-         <input type="password" id="password" />
+        <div>
+            <label for="password">password</label>
+            <input type="password" id="password" />
+        </div>
          <br />
-         <button type="submit">enregistrer</button>
+        <div>
+            <button type="submit">enregistrer</button>
+        </div>
     </form>
    </section>
 
@@ -60,42 +99,52 @@
     <!-- contact -->
     <h2>contact</h2>
     <form>
-        <label for="name">nom</label>
+        <div>
+            <label for="name">nom</label>
          <input type="text" id="name" />
+        </div>
          <br />
-         <label for="number">telephone</label>
-         <input type="number" id="telephone" />
+        <div>
+            <label for="number">telephone</label>
+            <input type="number" id="telephone" />
+        </div>
          <br />
-         <label for="adress">adress</label>
+         <div>
+            <label for="adress">adress</label>
          <input type="adress" id="adress" />
+         </div>
          <br />
-         <button type="submit">enregistrer</button>
+         <div>
+            <button type="submit">enregistrer</button>
+         </div>
     </form>
    </section>
 
     <!-- image -->
     <h2>image</h2>
-    <img src="github1.png" alt="image" height="300" width="500" />
+    <img src="capture1.png" alt="image" height="300" width="500" />
 
 
     <!-- table -->
     <h2>table</h2>
     <table>
-        <tr>
-            <th>compagny</th>
-            <th>name</th>
-            <th>adress</th>
-        </tr>
-        <tr>
-            <th>css</th>
-            <th>modou</th>
-            <th>dakar</th>
-        </tr>
-        <tr>
-            <th>sonacos</th>
-            <th>ousmane</th>
-            <th>kaolack</th>
-        </tr>
+        <div>
+            <tr>
+                <th>compagny</th>
+                <th>name</th>
+                <th>adress</th>
+            </tr>
+            <tr>
+                <th>css</th>
+                <th>modou</th>
+                <th>dakar</th>
+            </tr>
+            <tr>
+                <th>sonacos</th>
+                <th>ousmane</th>
+                <th>kaolack</th>
+            </tr>
+        </div>
     </table>
 
 
@@ -104,5 +153,10 @@
     <video controls>
         <source src="artist.mp4" type="video/mp4" width="320" height="240" autoplay />
     </video>
+    <br />
+    <footer>
+        realise par artist 1991 kaolack
+    </footer>
+</font>
     </body>
 </html>
